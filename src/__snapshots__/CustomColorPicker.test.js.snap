@@ -1,0 +1,1009 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`color-picker deselects color after start writing 1`] = `
+Object {
+  "selectedIndex": -1,
+  "showSuggestionList": true,
+  "suggestedColors": Array [
+    Object {
+      "hex": "#f00",
+      "name": "red",
+    },
+    Object {
+      "hex": "#f96063",
+      "name": "lightred",
+    },
+  ],
+  "value": "re",
+}
+`;
+
+exports[`color-picker deselects color after start writing 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value="re"
+    />
+    <ul
+      className="suggestions-list"
+      onMouseLeave={[Function]}
+    >
+      <li
+        key="red"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f00",
+            }
+          }
+        />
+        <Highlight
+          str="red"
+          substr="re"
+        >
+          <span>
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+      <li
+        key="lightred"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f96063",
+            }
+          }
+        />
+        <Highlight
+          str="lightred"
+          substr="re"
+        >
+          <span>
+            light
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+    </ul>
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker deselects color after start writing 3`] = `undefined`;
+
+exports[`color-picker hide option highlighting after mouse left 1`] = `
+Object {
+  "selectedIndex": -1,
+  "showSuggestionList": true,
+  "suggestedColors": Array [
+    Object {
+      "hex": "#f00",
+      "name": "red",
+    },
+    Object {
+      "hex": "#f96063",
+      "name": "lightred",
+    },
+  ],
+  "value": "re",
+}
+`;
+
+exports[`color-picker hide option highlighting after mouse left 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value="re"
+    />
+    <ul
+      className="suggestions-list"
+      onMouseLeave={[Function]}
+    >
+      <li
+        key="red"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f00",
+            }
+          }
+        />
+        <Highlight
+          str="red"
+          substr="re"
+        >
+          <span>
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+      <li
+        key="lightred"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f96063",
+            }
+          }
+        />
+        <Highlight
+          str="lightred"
+          substr="re"
+        >
+          <span>
+            light
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+    </ul>
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker hide option highlighting after mouse left 3`] = `undefined`;
+
+exports[`color-picker highlight option after mouse entered 1`] = `
+Object {
+  "selectedIndex": 1,
+  "showSuggestionList": true,
+  "suggestedColors": Array [
+    Object {
+      "hex": "#f00",
+      "name": "red",
+    },
+    Object {
+      "hex": "#f96063",
+      "name": "lightred",
+    },
+  ],
+  "value": "re",
+}
+`;
+
+exports[`color-picker highlight option after mouse entered 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value="re"
+    />
+    <ul
+      className="suggestions-list"
+      onMouseLeave={[Function]}
+    >
+      <li
+        key="red"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f00",
+            }
+          }
+        />
+        <Highlight
+          str="red"
+          substr="re"
+        >
+          <span>
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+      <li
+        key="lightred"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#cacaca",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f96063",
+            }
+          }
+        />
+        <Highlight
+          str="lightred"
+          substr="re"
+        >
+          <span>
+            light
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+    </ul>
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker highlight option after mouse entered 3`] = `undefined`;
+
+exports[`color-picker highlights color after click on arrowdown key 1`] = `
+Object {
+  "selectedIndex": 0,
+  "showSuggestionList": true,
+  "suggestedColors": Array [
+    Object {
+      "hex": "#f00",
+      "name": "red",
+    },
+    Object {
+      "hex": "#f96063",
+      "name": "lightred",
+    },
+  ],
+  "value": "re",
+}
+`;
+
+exports[`color-picker highlights color after click on arrowdown key 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value="re"
+    />
+    <ul
+      className="suggestions-list"
+      onMouseLeave={[Function]}
+    >
+      <li
+        key="red"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#cacaca",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f00",
+            }
+          }
+        />
+        <Highlight
+          str="red"
+          substr="re"
+        >
+          <span>
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+      <li
+        key="lightred"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f96063",
+            }
+          }
+        />
+        <Highlight
+          str="lightred"
+          substr="re"
+        >
+          <span>
+            light
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+    </ul>
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker highlights color after click on arrowdown key 3`] = `undefined`;
+
+exports[`color-picker renders without crashing 1`] = `
+Object {
+  "selectedIndex": -1,
+  "showSuggestionList": false,
+  "suggestedColors": Array [],
+  "value": "",
+}
+`;
+
+exports[`color-picker renders without crashing 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value=""
+    />
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker renders without crashing 3`] = `undefined`;
+
+exports[`color-picker selects color after click on enter key 1`] = `
+Object {
+  "selectedIndex": -1,
+  "showSuggestionList": false,
+  "suggestedColors": Array [
+    Object {
+      "hex": "#f00",
+      "name": "red",
+    },
+    Object {
+      "hex": "#f96063",
+      "name": "lightred",
+    },
+  ],
+  "value": "red",
+}
+`;
+
+exports[`color-picker selects color after click on enter key 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value="red"
+    />
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker selects color after click on enter key 3`] = `
+Object {
+  "hex": "#f00",
+  "name": "red",
+}
+`;
+
+exports[`color-picker selects color after click on suggested option 1`] = `
+Object {
+  "selectedIndex": -1,
+  "showSuggestionList": false,
+  "suggestedColors": Array [
+    Object {
+      "hex": "#f96063",
+      "name": "lightred",
+    },
+  ],
+  "value": "lightred",
+}
+`;
+
+exports[`color-picker selects color after click on suggested option 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value="lightred"
+    />
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker selects color after click on suggested option 3`] = `
+Object {
+  "hex": "#f96063",
+  "name": "lightred",
+}
+`;
+
+exports[`color-picker selects color after true name of the color was typed 1`] = `
+Object {
+  "selectedIndex": -1,
+  "showSuggestionList": true,
+  "suggestedColors": Array [
+    Object {
+      "hex": "#f00",
+      "name": "red",
+    },
+    Object {
+      "hex": "#f96063",
+      "name": "lightred",
+    },
+  ],
+  "value": "red",
+}
+`;
+
+exports[`color-picker selects color after true name of the color was typed 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value="red"
+    />
+    <ul
+      className="suggestions-list"
+      onMouseLeave={[Function]}
+    >
+      <li
+        key="red"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f00",
+            }
+          }
+        />
+        <Highlight
+          str="red"
+          substr="red"
+        >
+          <span>
+            <b>
+              red
+            </b>
+          </span>
+        </Highlight>
+      </li>
+      <li
+        key="lightred"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f96063",
+            }
+          }
+        />
+        <Highlight
+          str="lightred"
+          substr="red"
+        >
+          <span>
+            light
+            <b>
+              red
+            </b>
+          </span>
+        </Highlight>
+      </li>
+    </ul>
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker selects color after true name of the color was typed 3`] = `
+Object {
+  "hex": "#f00",
+  "name": "red",
+}
+`;
+
+exports[`color-picker shows list 2nd symbol typed 1`] = `
+Object {
+  "selectedIndex": -1,
+  "showSuggestionList": true,
+  "suggestedColors": Array [
+    Object {
+      "hex": "#f00",
+      "name": "red",
+    },
+    Object {
+      "hex": "#f96063",
+      "name": "lightred",
+    },
+  ],
+  "value": "re",
+}
+`;
+
+exports[`color-picker shows list 2nd symbol typed 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value="re"
+    />
+    <ul
+      className="suggestions-list"
+      onMouseLeave={[Function]}
+    >
+      <li
+        key="red"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f00",
+            }
+          }
+        />
+        <Highlight
+          str="red"
+          substr="re"
+        >
+          <span>
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+      <li
+        key="lightred"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "##f96063",
+            }
+          }
+        />
+        <Highlight
+          str="lightred"
+          substr="re"
+        >
+          <span>
+            light
+            <b>
+              re
+            </b>
+            d
+          </span>
+        </Highlight>
+      </li>
+    </ul>
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker shows list 2nd symbol typed 3`] = `undefined`;
+
+exports[`color-picker works after 1st symbol typed 1`] = `
+Object {
+  "selectedIndex": -1,
+  "showSuggestionList": true,
+  "suggestedColors": Array [
+    Object {
+      "hex": "#5f4611",
+      "name": "brown",
+    },
+    Object {
+      "hex": "#f00",
+      "name": "red",
+    },
+    Object {
+      "hex": "#f96063",
+      "name": "lightred",
+    },
+  ],
+  "value": "r",
+}
+`;
+
+exports[`color-picker works after 1st symbol typed 2`] = `
+<CustomColorPicker
+  colors={
+    Array [
+      Object {
+        "hex": "#000",
+        "name": "black",
+      },
+      Object {
+        "hex": "#5f4611",
+        "name": "brown",
+      },
+      Object {
+        "hex": "#f00",
+        "name": "red",
+      },
+      Object {
+        "hex": "#f96063",
+        "name": "lightred",
+      },
+      Object {
+        "hex": "#fff",
+        "name": "white",
+      },
+    ]
+  }
+  onChange={[Function]}
+>
+  <div
+    className="custom-color-picker"
+  >
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      value="r"
+    />
+  </div>
+</CustomColorPicker>
+`;
+
+exports[`color-picker works after 1st symbol typed 3`] = `undefined`;

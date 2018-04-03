@@ -1,0 +1,43 @@
+
+.custom-color-picker {
+    max-width: 300px;
+    border: gray 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+    position: relative;
+    background-color: #fff;
+}
+
+.custom-color-picker input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.custom-color-picker ul {
+    border: solid 1px gray;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    max-height: 300px;
+    overflow-y: auto;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-color-picker ul li {
+    padding: 3px;
+    text-align: left;
+}
+
+.custom-color-picker ul li div {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: black 1px solid;
+    padding: 3px;
+}
